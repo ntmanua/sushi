@@ -72,3 +72,7 @@
 
     object-fit: contain;
 }
+
+.about-us__content {
+    padding: 64px;
+}
