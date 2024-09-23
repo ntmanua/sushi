@@ -4,8 +4,9 @@ import sushi12 from '../assets/sushi-12.png';
 import sushi11 from '../assets/sushi-11.png';
 import sushi10 from '../assets/sushi-10.png';
 
-// import AOS from 'aos';
-// init AOS animation (animate on scroll)
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 AOS.init({
     duration: 1000,
     offset: 100,
@@ -20,7 +21,14 @@ const trendingSushis = [
     'Inari Sushi',
 ];
 
-const trendingDrinks = ['Oruncha', 'Ofukucha', 'Sakura Tea', 'Kombu-cha', 'Aojiru', 'Mugicha'];
+const trendingDrinks = [
+    'Oruncha',
+    'Ofukucha',
+    'Sakura Tea',
+    'Kombu-cha',
+    'Aojiru',
+    'Mugicha',
+];
 
 const cards = [
     {
